@@ -228,9 +228,46 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "author",
+        "name": "byline_author",
         "label": "Author",
         "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "byline_role",
+        "label": "Author role",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "authorImage",
+        "label": "Author image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "authorImageAlt",
+        "label": "Author image alt text",
+        "value": ""
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Dark",
+            "value": "dark"
+          },
+          {
+            "name": "Centered",
+            "value": "centered"
+          }
+        ]
       }
     ]
   }
